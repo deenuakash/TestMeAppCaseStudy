@@ -6,6 +6,6 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="Features/case4.feature",glue="scenario",plugin="json:C://report/cucumber.json")
+@CucumberOptions(features="Features/case4.feature",glue="scenario",plugin="json:target/cucumber.json")
 public class Runner4 {
 }
